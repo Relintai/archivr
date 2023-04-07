@@ -15,6 +15,13 @@ config/description="Web Site archiver"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Settings="*res://settings/Settings.tscn"
+DownloadManager="*res://downloader/DownloadManager.tscn"
+ProjectManager="*res://projects/ProjectManager.tscn"
+ProjectServeManager="*res://serve/ProjectServeManager.tscn"
+
 [physics]
 
 common/enable_pause_aware_picking=true
