@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="WP Saver"
+config/name="ArchivR"
+config/description="Web Site archiver"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
